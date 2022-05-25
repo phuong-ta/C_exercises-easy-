@@ -3,7 +3,7 @@
 /*
     Program ask user to give a number between 0 to 50. 
     If given number is bigger than 50 or smaller than 0, the program will ask again. 
-    Then program will print WoW, where the amount of "o" will be the user's given number.
+    Then program will print WoW, where the amount of "o" will be decided the user's given number.
 */
 
 // funtion create 
