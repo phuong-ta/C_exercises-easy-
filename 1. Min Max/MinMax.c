@@ -1,11 +1,14 @@
 #include <stdio.h>
+/*
+  User will give 2 numbers, this excercise aims to check which number is bigger, which number is smaller.
+*/
 
 // funtion check 2 inputed numbers, which one is bigger
 int checkNumber(int number1, int number2){
     if(number1 >number2)
-        printf("%d is bigger than %d.", number1, number2);
+        printf("%d is bigger than %d.\n", number1, number2);
     else
-        printf("%d is bigger than %d.", number2, number1);
+        printf("%d is bigger than %d.\n", number2, number1);
 }
 int main() {
     int num1;
