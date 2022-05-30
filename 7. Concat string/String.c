@@ -10,12 +10,12 @@ int main(){
     int length;
     printf("Enter your first name: ");
 
-    scanf("%s", firstName);  // read string
+    scanf("%[^\n]s",firstName);  // read string
     strcat(firstName," "); // add white space after first name
 
     printf("Enter your last name: ");
 
-    scanf("%s", lastName);  // read string
+    scanf("%[^\n]s",lastName);  // read string
     strcat(firstName,lastName); // add last name after firstname + whiteSpace
 
     length = length = strlen(firstName)-1; // strlen to find string lenth
